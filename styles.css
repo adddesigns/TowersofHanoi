@@ -1,0 +1,59 @@
+div#grid{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color:#68A2AA;
+}
+
+button{
+    height: 16%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #aa68a2;
+    color: white;
+}
+
+.tower{
+    height: 300px;
+    background-image: url("tower.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.highlight{
+    border-width: 3px;
+    border-color: lightyellow;
+    border-style: solid;
+}
+
+.disc{
+    display: inline-block;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#disc-1{
+    width: 60%;
+    background-color: #704d3f;
+}
+
+#disc-2{
+    width: 80%;
+    background-color: #4d3f70;
+}
+
+#disc-3{
+    width: 100%;
+    background-color: #3F704D;
+}
